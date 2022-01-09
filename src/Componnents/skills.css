@@ -1,0 +1,82 @@
+.skillsOut{
+    margin:20px;
+    
+}
+
+.skills{
+    background-color:rgb(201, 201, 201);
+    height: 40vh;
+    
+    border-radius:20px;
+    box-shadow:0px 0px 10px rgb(201, 201, 201);
+    
+    
+}
+
+.titleH{
+    font-family:'Courier New', Courier, monospace;
+    font-weight:500;
+    font-size:40px;
+    padding-top:10px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    
+    
+}
+
+.skillsIcons{
+    font-size:40px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+    margin-top: 20px;
+    background-color: rgb(233, 232, 232);
+    box-shadow:0px 0px 10px rgb(126, 122, 122);
+    
+}
+
+
+.box-1{
+    flex:1;
+}
+
+.box-1:hover{
+    color:rgb(174, 108, 212);
+}
+
+
+.box-2{
+    flex:1;
+}
+
+.box-2:hover{
+    color:rgb(174, 108, 212);;
+}
+.box-3{
+    flex:1;
+}
+.box-3:hover{
+    color:rgb(174, 108, 212);;
+}
+.box-4{
+    flex:1;
+}
+.box-4:hover{
+    color:rgb(174, 108, 212);;
+}
+.box-5{
+    flex:1;
+}
+.box-5:hover{
+    color:rgb(174, 108, 212);;
+}
+.box-6{
+    flex:1;
+}
+.box-6:hover{
+    color:rgb(174, 108, 212);;
+}
