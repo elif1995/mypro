@@ -1,56 +1,52 @@
-.OutP{
-    margin:100px;
-    margin-bottom: 200px;
-    
+.OutP {
+  padding-top: 120px;
+  margin: 70px;
+  margin-bottom: 200px;
 }
 
-.OutT{
-    background-color:rgb(255, 255, 255);
-    border-radius:20px;
-    box-shadow:0px 0px 10px rgb(121, 121, 121);
-    
+.OutT {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  
 }
 
-.myprojects{
-    
-    display: flex;
-    background-color:rgb(8, 7, 7);
-    border-radius:20px;
-    box-shadow:0px -10px 10px rgb(121, 121, 121);
-    padding: 10px;
-    
-    flex-wrap: wrap;
-    
+.myprojects {
+  display: flex;
+  background-color: rgb(8, 7, 7);
+  border-radius: 20px;
+  box-shadow: 0px -10px 10px rgb(167, 166, 166);
+  padding: 10px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
 
+.myprojects a {
+  transition: 0.6s ease;
+  background-color: lightgrey;
+  border-radius: 30px;
+  margin: 8px;
+}
+
+.myprojects a:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease;
+}
+
+.myprojects img {
+  border-radius: 30px;
+  height: 200px;
+  width: 200px;
+  
+}
+
+.proj-1 {
+  flex: 1;
+  margin: 4px;
+  border-radius: 30px;
+  
 }
 
 
-
-
-.proj-1{
-    flex:1;
-    background-color:rgb(223, 223, 223);
-    border-radius: 20px;
-    box-shadow:10px 7px 4px rgb(114, 114, 114);
-    margin: 20px;
-    
-}
-
-
-
-
-.proj-2{
-    flex:1;
-    background-color:rgb(223, 223, 223);
-    border-radius: 20px;
-    box-shadow:10px 7px 4px rgb(114, 114, 114);
-    margin: 20px;
-}
-
-.proj-3{
-    flex:1;
-    background-color: rgb(223, 223, 223);
-    border-radius: 20px;
-    box-shadow:10px 7px 4px rgb(114, 114, 114);
-    margin: 20px;
-}

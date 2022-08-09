@@ -17,22 +17,22 @@ import Particles from "react-tsparticles";
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={{
-                    fpsLimit: 80,
+                    fpsLimit: 30,
                     interactivity: {
                     events: {
                         onClick: {
-                        enable: true,
+                        enable: false,
                         mode: "push",
                         },
                         onHover: {
-                        enable: true,
+                        enable: false,
                         mode: "repulse",
                         },
                         resize: true,
                     },
                     modes: {
                         bubble: {
-                        distance: 200,
+                        distance: 100,
                         duration: 2,
                         opacity: 0.8,
                         size: 40,
@@ -42,7 +42,7 @@ import Particles from "react-tsparticles";
                         },
                         repulse: {
                         distance: 100,
-                        duration: 0.4,
+                        duration: 0.8,
                         },
                     },
                     },
@@ -53,7 +53,7 @@ import Particles from "react-tsparticles";
                     links: {
                         color: "#ffffff",
                         distance: 150,
-                        enable: true,
+                        enable: false,
                         opacity: 0.85,
                         width: 0.5,
                     },
@@ -63,9 +63,9 @@ import Particles from "react-tsparticles";
                     move: {
                         direction: "none",
                         enable: true,
-                        outMode: "bounce",
-                        random: false,
-                        speed: 2,
+                        outMode:"bounce",
+                        random: true,
+                        speed: 1,
                         straight: false,
                     },
                     number: {
@@ -76,14 +76,14 @@ import Particles from "react-tsparticles";
                         value: 80,
                     },
                     opacity: {
-                        value: 0.4,
+                        value: 0.6,
                     },
                     shape: {
                         type: "circle",
                     },
                     size: {
                         random: true,
-                        value: 3,
+                        value: 5,
                     },
                     },
                     detectRetina: true,

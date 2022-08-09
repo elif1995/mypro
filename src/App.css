@@ -1,12 +1,42 @@
 
+
 .App{
-  background-color: #050505;
+  background-color: rgba(0, 0, 0, 0.966);
+  
   
 }
+
+.Mood{
+  margin-left: 10px;
+  background-color:transparent;
+  color: white;
+  border: none;
+  border-radius:50%;
+}
+
+.Mood:hover{
+  opacity: 0.8;
+  
+}
+
 .navbar {
   font-family: 'Courier New', Courier, monospace;
   padding:10px;
   opacity: 0.9;
+  
+}
+
+.CvButton {
+  font-family: 'Courier New', Courier, monospace;
+  width:100%;
+  padding: 10px;
+  background-color: rgb(104, 28, 28);
+  color: white;
+}
+
+.CvButton:hover{
+  background-color: rgb(44, 80, 134);
+  transition: 1s ease;
   
 }
 
