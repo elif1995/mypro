@@ -2,7 +2,12 @@ import './myprojects.css';
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import superKidsImg from '../images/superKids.png'
+import superKidsImg from '../images/superKids.png';
+import reactTable from '../images/reacttable.png';
+import landingPage from '../images/yulia_frenkin.png';
+import ClinicSite from '../images/smile2me.png'
+import CryptoWeb from '../images/cryptoApp.png';
+import EcommerceWeb from '../images/Ecommerce.png'
 
 function Myprojects (){
 
@@ -39,30 +44,44 @@ function Myprojects (){
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
-                    alt="Second slide"
-                    />
-
-                    <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
+                    
+                    <div className="carousel-proj">
+                        <img src={reactTable}/>
+                        <h4><a  href="https://react-material-table-zet.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>React Table</h1></a>a table built with "material-table" with CRUD options.
+                        </h4>
+                    </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
-                    alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                    </Carousel.Caption>
+                    
+                    <div className="carousel-proj">
+                        <img src={landingPage}/>
+                        <h4><a  href="https://yulia-frenkin.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Landing Page</h1></a>landing page built for a estetic clinic using "React".
+                        </h4>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    
+                    <div className="carousel-proj">
+                        <img src={ClinicSite}/>
+                        <h4><a  href="https://smile2me.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Clinic Site</h1></a>Clinic Site built for a dental clinic using "React".
+                        </h4>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    
+                    <div className="carousel-proj">
+                        <img src={CryptoWeb}/>
+                        <h4><a  href="https://eli-crypto-app.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Crypto App</h1></a>a crypto web app showing cryptocurrencies and news reports, built by "React" and "Redux" also using RapidApi.
+                        </h4>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    
+                    <div className="carousel-proj">
+                        <img src={EcommerceWeb}/>
+                        <h4><a  href="https://papaya-dasik-4025ec.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Ecommerce Web</h1></a>a complex ecommerce web with autentication and paying option built by "React", "Redux", "firebase", "Strip". 
+                        </h4>
+                    </div>
                 </Carousel.Item>
                 </Carousel>
             </div>
