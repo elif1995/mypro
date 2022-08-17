@@ -50,3 +50,36 @@
 }
 
 
+.carousel-proj{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly
+}
+
+.carousel-proj a{
+  background:transparent;
+  text-decoration: none;
+}
+
+.carousel-proj h4{
+  flex: 0.5;
+  color: #fff;
+  display: flex;
+  align-items:center;
+  padding: 20px 10px;
+  flex-direction: column
+}
+
+.carousel-proj img{
+  flex: 0.3;
+  padding: 15px
+}
+
+@media screen and (max-width: 768px){
+  .carousel-proj{
+    flex-direction: column;
+  }
+  
+}
+
+
