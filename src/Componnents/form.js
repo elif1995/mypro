@@ -1,7 +1,7 @@
 import './form.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import emailjs from 'emailjs-com'
-import react,{useState} from 'react';
+import {useState} from 'react';
 
 
 function Form () {
@@ -35,16 +35,16 @@ function Form () {
         
         
         <h1 style={{fontFamily:'CursiveNew'}} className="form-control" id="hello" >Hello <span style={{fontWeight:'bold'}}>{data}</span>  Leave A Message</h1>
-        <form style={{margin:"25px 40px 75px 10px"}} onSubmit={sendEmail}>
+        <form style={{margin:"25px  75px "}} onSubmit={sendEmail}>
             <label>Name</label>
-            <input type="text" id="name" name="name" onChange={afterChange} className="form-control" style={{margin:'10px',boxShadow:'1px 1px 20px lightgrey'}}/>
+            <input type="text" id="name" name="name" onChange={afterChange} className="form-control" style={{margin:'10px 0',boxShadow:'1px 1px 10px lightgrey'}}/>
 
             <label>Email</label>
-            <input type="email" name="user_email" className="form-control" style={{margin:'10px',boxShadow:'1px 1px 20px lightgrey'}}/>
+            <input type="email" name="user_email" className="form-control" style={{margin:'10px 0',boxShadow:'1px 1px 10px lightgrey'}}/>
 
             <label>Message</label>
-            <textarea name="message" rows='4' className="form-control" style={{margin:'10px',boxShadow:'1px 1px 20px lightgrey'}}/>
-            <input type="submit" value="Send" style={{margin:'10px'}} className="btn"  />
+            <textarea name="message" rows='4' className="form-control" style={{margin:'10px 0',boxShadow:'1px 1px 10px lightgrey'}}/>
+            <button type="submit"  style={{margin:'10px'}} className="btn-form">Send</button>
         </form>
         </div>    
         

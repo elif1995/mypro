@@ -9,18 +9,18 @@ const HandleTextTitle = (typewriter) => {
     .typeString("Hello My name is Eli Frenkin")
     .pauseFor(1500)
     .deleteAll()
-    .typeString("I'm a frontend developer")
+    .typeString("I'm a fullstack developer")
     .pauseFor(1500)
     .deleteAll()
-    .typeString("I'm a SQL developer")
+    .typeString("I'm a React & React Native developer")
     .pauseFor(1500)
     .deleteAll()
     .typeString("I'm a web designer")
     .pauseFor(1500)
     .deleteAll()
-    .typeString("And a python developer")
+    
+    .typeString("And this is my protfolio!")
     .deleteAll()
-    .typeString("This is my protfolio!")
     }
 }
 

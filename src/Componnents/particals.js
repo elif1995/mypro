@@ -11,7 +11,7 @@ import Particles from "react-tsparticles";
         };
 
     return(
-        <div className="particals">
+        <div className="particals" >
             <Particles
                 id="tsparticles"
                 init={particlesInit}

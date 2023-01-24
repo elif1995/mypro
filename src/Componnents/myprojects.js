@@ -25,21 +25,15 @@ function Myprojects (){
             
             <div className="myprojects">
             
-{/*            
-            <a  href="https://superkids.netlify.app" target="_blank" ><h4 style={{textAlign: "center", color: "black"}}>Socialwork web</h4 ><img className="proj-1" src={require("../images/superKids.png")} ></img></a>
-            <a  href="https://react-material-table-zet.netlify.app/" target="_blank" ><h4 style={{textAlign: "center", color: "black"}}>React Table</h4 ><img className="proj-1" src={require("../images/reacttable.png")}   ></img></a>
-            <a  href="https://yulia-frenkin.netlify.app" target="_blank" ><h4 style={{textAlign: "center", color: "black"}}>Landing Page</h4 ><img className="proj-1"  src={require("../images/yulia_frenkin.png")}   ></img></a>
-            <a  href="https://smile2me.netlify.app" target="_blank" ><h4 style={{textAlign: "center", color: "black"}}>Clinic Site</h4 ><img className="proj-1" src={require("../images/smile2me.png")}   ></img></a>
-            <a  href="https://eli-crypto-app.netlify.app" target="_blank" ><h4 style={{textAlign: "center", color: "black"}}>Crypto App</h4 ><img className="proj-1" src={require("../images/cryptoApp.png")}   ></img></a>
-            <a  href="https://papaya-dasik-4025ec.netlify.app" target="_blank" ><h4 style={{textAlign: "center", color: "black"}}>Ecommerce</h4 ><img className="proj-1" src={require("../images/Ecommerce.png")}   ></img></a>
-             */}
-            <Carousel  indicators={false} controls={false} className='w-100'  activeIndex={index} onSelect={handleSelect}>
+
+            <Carousel  indicators={true} controls={false} className='w-100'  activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     
                     <div className="carousel-proj">
                         <img src={superKidsImg}/>
                         <h4><a  href="https://superkids.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>superkids</h1></a>i've built a website for a startup company in the fields of social work, 
-                            this website was built using "React" and "antd".
+                            website for a startup company in the fields of social work built by using "React" and "express" for the backend and "antd" for the design.
+                        <a  href="https://superkids.netlify.app" target="_blank" style={{backgroundColor:"white",margin: '15px', borderRadius:'5px', boxShadow:'0px 0px 0px 4px rgb(134 22 22)'}}><h4 style={{color: "grey",padding:"2px 30px"}}>Try it</h4></a>
                         </h4>
                     </div>
                 </Carousel.Item>
@@ -47,7 +41,8 @@ function Myprojects (){
                     
                     <div className="carousel-proj">
                         <img src={reactTable}/>
-                        <h4><a  href="https://react-material-table-zet.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>React Table</h1></a>a table built with "material-table" with CRUD options.
+                        <h4><a  href="https://react-material-table-zet.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>React Table</h1></a>A table built with "material-table" with CRUD options.
+                        <a  href="https://react-material-table-zet.netlify.app" target="_blank" style={{backgroundColor:"white",margin: '15px', borderRadius:'5px', boxShadow:'0px 0px 0px 4px rgb(134 22 22)'}}><h4 style={{color: "grey",padding:"2px 30px"}}>Try it</h4></a>
                         </h4>
                     </div>
                 </Carousel.Item>
@@ -55,7 +50,8 @@ function Myprojects (){
                     
                     <div className="carousel-proj">
                         <img src={landingPage}/>
-                        <h4><a  href="https://yulia-frenkin.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Landing Page</h1></a>landing page built for a estetic clinic using "React".
+                        <h4><a  href="https://yulia-frenkin.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Landing Page</h1></a>Landing page built for a estetic clinic using "React".
+                        <a  href="https://yulia-frenkin.netlify.app" target="_blank" style={{backgroundColor:"white",margin: '15px', borderRadius:'5px', boxShadow:'0px 0px 0px 4px rgb(134 22 22)'}}><h4 style={{color: "grey",padding:"2px 30px"}}>Try it</h4></a>
                         </h4>
                     </div>
                 </Carousel.Item>
@@ -64,6 +60,7 @@ function Myprojects (){
                     <div className="carousel-proj">
                         <img src={ClinicSite}/>
                         <h4><a  href="https://smile2me.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Clinic Site</h1></a>Clinic Site built for a dental clinic using "React".
+                        <a  href="https://smile2me.netlify.app" target="_blank" style={{backgroundColor:"white",margin: '15px', borderRadius:'5px', boxShadow:'0px 0px 0px 4px rgb(134 22 22)'}}><h4 style={{color: "grey",padding:"2px 30px"}}>Try it</h4></a>
                         </h4>
                     </div>
                 </Carousel.Item>
@@ -71,7 +68,8 @@ function Myprojects (){
                     
                     <div className="carousel-proj">
                         <img src={CryptoWeb}/>
-                        <h4><a  href="https://eli-crypto-app.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Crypto App</h1></a>a crypto web app showing cryptocurrencies and news reports, built by "React" and "Redux" also using RapidApi.
+                        <h4><a  href="https://eli-crypto-app.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Crypto App</h1></a>a crypto web app showing cryptocurrencies and news reports, built by "React" and "Redux" also using "RapidApi".
+                        <a  href="https://eli-crypto-app.netlify.app" target="_blank" style={{backgroundColor:"white",margin: '15px', borderRadius:'5px', boxShadow:'0px 0px 0px 4px rgb(134 22 22)'}}><h4 style={{color: "grey",padding:"2px 30px"}}>Try it</h4></a>
                         </h4>
                     </div>
                 </Carousel.Item>
@@ -80,6 +78,7 @@ function Myprojects (){
                     <div className="carousel-proj">
                         <img src={EcommerceWeb}/>
                         <h4><a  href="https://papaya-dasik-4025ec.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Ecommerce Web</h1></a>a complex ecommerce web with autentication and paying option built by "React", "Redux", "firebase", "Strip". 
+                        <a  href="https://papaya-dasik-4025ec.netlify.app" target="_blank" style={{backgroundColor:"white",margin: '15px', borderRadius:'5px', boxShadow:'0px 0px 0px 4px rgb(134 22 22)'}}><h4 style={{color: "grey",padding:"2px 30px"}}>Try it</h4></a>
                         </h4>
                     </div>
                 </Carousel.Item>
