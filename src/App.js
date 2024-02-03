@@ -46,7 +46,7 @@ function App() {
         <Nav className="me-auto my-2 my-lg-0"
         style={{ maxHeight: '100px' }}
         >
-          <Nav.Link href='#Home' style={{color:'red'}}>Home</Nav.Link>
+          <Nav.Link href='#Home' style={{color:'red', fontWeight:'bold'}}>Home</Nav.Link>
           <Nav.Link href='#skills' style={{color:'white'}}>my skills</Nav.Link>
           <Nav.Link href='#myprojects' style={{color:'white'}}>my projects</Nav.Link>
           <Nav.Link href='#form' style={{color:'white'}}>send message</Nav.Link>

@@ -8,6 +8,7 @@ import landingPage from '../images/yulia_frenkin.png';
 import ClinicSite from '../images/smile2me.png'
 import CryptoWeb from '../images/cryptoApp.png';
 import EcommerceWeb from '../images/Ecommerce.png'
+import AlleLogo from '../images/alle.jpg'
 
 function Myprojects (){
 
@@ -79,6 +80,15 @@ function Myprojects (){
                         <img src={EcommerceWeb}/>
                         <h4><a  href="https://papaya-dasik-4025ec.netlify.app" target="_blank" ><h1 style={{color: "darkRed"}}>Ecommerce Web</h1></a>a complex ecommerce web with autentication and paying option built by "React", "Redux", "firebase", "Strip". 
                         <a  href="https://papaya-dasik-4025ec.netlify.app" target="_blank" style={{backgroundColor:"white",margin: '15px', borderRadius:'5px', boxShadow:'0px 0px 0px 4px rgb(134 22 22)'}}><h4 style={{color: "grey",padding:"2px 30px"}}>Try it</h4></a>
+                        </h4>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    
+                    <div className="carousel-proj">
+                        <img src={AlleLogo}/>
+                        <h4><a  href="https://alleartbynature.com" target="_blank" ><h1 style={{color: "darkRed"}}>Ecommerce Web</h1></a>a complex ecommerce and blog web with autentication and paying option built by WordPress and Woocommerce
+                        <a  href="https://alleartbynature.com" target="_blank" style={{backgroundColor:"white",margin: '15px', borderRadius:'5px', boxShadow:'0px 0px 0px 4px rgb(134 22 22)'}}><h4 style={{color: "grey",padding:"2px 30px"}}>Try it</h4></a>
                         </h4>
                     </div>
                 </Carousel.Item>
